@@ -1,0 +1,84 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: aquamarine;
+    padding: 1em;
+    display: flex;
+    flex: row nowrap;
+    justify-content: space-between;
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    color: #FEFFFF;
+}
+/* Spinner */
+@keyframes spin {
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.spinner {
+    font-size: 50px;
+    text-align: center;
+    animation: 2s spin linear infinite;
+    display: none;
+}
+
+.doggos {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+h2 {
+    padding: .1em 0;
+    margin: 0;
+    font-family: Nunito, sans-serif;
+    color: aquamarine;
+}
+.pick {
+    padding: 1em 1em .5em 1em;
+    text-align: right;
+}
+.dog-img {
+    display: none;
+    border-radius: 1em;
+    max-height: 85vh;
+    max-width: 90vh;
+}
+.dog-img:hover {
+    cursor: hand;
+    opacity: 0.8;
+    transition: .5s;
+}
+
+.show {
+    display: block;
+}
+.instr {
+    text-align: center;
+}
+/* footer */
+#container {
+    position: relative;
+    min-height: 100vh;
+    background-color: #ffe9d9;
+}
+
+#content {
+    padding-bottom: 2.5rem;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+
+    text-align: center;
+    color: #777;
+}
