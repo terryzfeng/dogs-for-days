@@ -24,7 +24,6 @@ const BREEDS_ALL = "https://dog.ceo/api/breeds/list/all";
 const select = document.querySelector(".breeds");
 const dog = document.querySelector(".dog-img");
 const instr = document.querySelectorAll(".pick")
-const next = document.querySelector("#next");
 
 const spinner = document.querySelector(".spinner");
 
@@ -35,7 +34,6 @@ function getDog(url) {
     dog.classList.remove("show");
     instr[0].style.display = "none";
     instr[1].style.display = "none";
-    next.style.display = "none";
 
     fetch(url)
         .then(function (response) {
@@ -72,18 +70,14 @@ select.addEventListener("change", function (e) {
     }
 });
 
-next.addEventListener("click", function() {
+dog.addEventListener("click", function() {
     if (select.value !== "") {
         let url = `https://dog.ceo/api/breed/${select.value}/images/random`;
         getDog(url);
     }
-});
-
+})
 // When image is loaded, stop load spinner
 dog.addEventListener("load", function () {
     spinner.classList.remove("show");
     dog.classList.add("show");
-    if (select.value !== "") {
-        next.style.display = "block";
-    }
 });
