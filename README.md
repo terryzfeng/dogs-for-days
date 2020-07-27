@@ -1,5 +1,5 @@
 # Dogs for Days
-[Visit the site here!](http://www.dogsfordays.github.io)
+[Visit the site here!](https://terryzfeng.github.io/dogs-for-days/)
 
 ![Preview of Site](/images/preview.jpg)
 
