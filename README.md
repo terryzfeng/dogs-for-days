@@ -9,4 +9,4 @@ Just another exercise with HTML/CSS/Javascript, made for FrontEndMasters
 
 Website not intended to work with mobile
 
-terry feng
+&ndash; terry feng
