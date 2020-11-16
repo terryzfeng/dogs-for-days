@@ -3,7 +3,7 @@
 
 ![Preview of Site](/images/preview.jpg)
 
-This is a fun website built with the [dog.ceo](dog.ceo) API that will generate your favorite pictures of dogs
+This is a fun website built with the [dog.ceo](https://dog.ceo) API that will generate your favorite pictures of dogs
 
 A fun web excercise with HTML/CSS/Javascript, made for the FrontEndMasters web course
 
