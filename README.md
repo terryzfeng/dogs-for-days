@@ -3,10 +3,10 @@
 
 ![Preview of Site](/images/preview.jpg)
 
-This is a fun website built with the dog.ceo API that will generate your favorite pictures of dogs
+This is a fun website built with the [dog.ceo](dog.ceo) API that will generate your favorite pictures of dogs
 
-Just another exercise with HTML/CSS/Javascript, made for FrontEndMasters
+A fun web excercise with HTML/CSS/Javascript, made for the FrontEndMasters web course
 
-Website not intended to work with mobile
+Optimized for desktop
 
 &ndash; terry feng
